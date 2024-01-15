@@ -7,9 +7,9 @@ import MovilMenu from './MovilMenu'
 
 const Header = () => {
   return (
-    <header className='flex items-center justify-between h-20 max-width border-b border-peach ' >
+    <header className='flex items-center justify-between h-20 max-width border-b border-peach font-primary' >
         <Link href={"/"}>
-            <h5 className='text-gray-800 text-xl font-semibold'>Web
+            <h5 className='text-gray-800 text-xl '>Web
             <span className='text-red-700'> Developer</span></h5>
         </Link>
         <nav className='flex items-center gap-12 max-tablet:hidden'>

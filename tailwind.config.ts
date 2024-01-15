@@ -13,6 +13,10 @@ const config: Config = {
         tablet: "1040px",
         desktop: "1620px",
       },
+      fontFamily: { 
+        primary: ["Poppins"],
+        text: ["Raleway"]
+       },
       colors: {
         white: "#ffffff",
         black: "#000000",

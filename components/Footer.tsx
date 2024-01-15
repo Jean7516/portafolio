@@ -5,7 +5,7 @@ import NavLink from './NavLink'
 
 const Footer = () => {
   return (
-    <footer className='py-10 border-t border-peach max-width'>
+    <footer className='py-10 border-t border-peach max-width font-primary'>
       <div className='flex items-center justify-between'>
         <Link href={'/'} className='text-purple text-xl font-semibold'>Yann</Link>
         <nav className='flex gap-12 max-tablet:hidden'>
