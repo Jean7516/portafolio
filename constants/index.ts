@@ -90,7 +90,7 @@ export const portfolios = [
   {
     id: 1,
     title: "Rutinas de ejercicio",
-    link: "https://lucky-caramel-8122b1.netlify.app",
+    link: "https://earnest-custard-10f00e.netlify.app",
     images: [
       "/images/portfolio-1.png",
       "/images/portfolio-2.png",
