@@ -14,15 +14,15 @@ const MovilMenu = () => {
   return (
     <div className='tablet:hidden'>
         {/* toggle button*/}
-        <button className='text-grey-700 hover:text-purple transition-colors' onClick={toggleMenu}>
+        <button className='text-grey-100 hover:text-purple transition-colors' onClick={toggleMenu}>
             <Menu/>
         </button>
-        <div className={`w-full h-full flex flex-col bg-peach-600 fixed top-0 left-0 z-50 transition-all duration-300 ease-in-out transform ${isOpen ? "translate-x-0" : "-translate-x-full"}`}>
+        <div className={`w-full h-full flex flex-col bg-red-950/95 fixed top-0 left-0 z-50 transition-all duration-300 ease-in-out transform ${isOpen ? "translate-x-0" : "-translate-x-full"}`}>
             <div className='flex w-full items-center justify-between h-20 max-width border-b border-peach'>
                 <Link href={"/"}>
                     <h5 className='text-purple-50 text-xl font-semibold'>Jean</h5>
                 </Link>
-                <button className='text-grey-700 hover:text-purple-700 transition-colors' onClick={toggleMenu}>
+                <button className='text-grey-100 hover:text-purple-700 transition-colors' onClick={toggleMenu}>
                     <X/>
                 </button>
             </div>
@@ -38,7 +38,7 @@ const MovilMenu = () => {
             </nav>
             <div className='w-full h-20 flex items-center justify-between max-width border-t border-peach'>
                 {socialLinks.map((link,index)=>(
-                    <a key={index} href={link.url} className='text-gray-700 hover:text-purple-700 transition-colors'>{link.label}</a>
+                    <a key={index} href={link.url} className='text-gray-100 hover:text-purple-700 transition-colors'>{link.label}</a>
                 ))}
             </div>
         </div>

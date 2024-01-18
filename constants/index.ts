@@ -96,16 +96,29 @@ export const portfolios = [
       "/images/portfolio-2.png",
       "/images/portfolio-3.png",
     ],
+    useF:[
+      "ReactJS",
+      "JavaScript",
+      "IconMaterial"
+    ],
+    text:"Una aplicación web React que recopila datos de una api de Ejercicios para mostrarlas en una interfas. La interfaz de usuario se diseñó utilizando IconMaterial. La aplicación posee funcionalidades que permiten a los usuarios escoger la parte del cuerpo que desa trabajar y la aplicacion devuelve los pasos asi como videos que debe realizar para ejercitar esos musculos."
   },
   {
     id: 2,
-    title: "Resumir Articulos web con IA",
+    title: "Resumir Articulos web",
     link: "https://luxury-squirrel-4201c3.netlify.app",
     images: [
       "/images/portfolio-4.png",
       "/images/portfolio-5.png",
       "/images/portfolio-6.png",
     ],
+    useF:[
+      "ReactJS",
+      "Tailwindcss",
+      "Vite",
+      "Axios",
+    ],
+    text:"Una aplicación web React que resume aritculos proporcionados mediante una URl. La interfaz de usuario se diseñó utilizando TailwindCSS "
   },
   {
     id: 3,
@@ -116,67 +129,13 @@ export const portfolios = [
       "/images/portfolio-1.png",
       "/images/portfolio-2.png",
     ],
-  },
-  {
-    id: 4,
-    title: "Current Vandi Website",
-    link: "#",
-    images: [
-      "/images/portfolio-4.png",
-      "/images/portfolio-5.png",
-      "/images/portfolio-6.png",
+    useF:[
+      "react",
+      "typescryp"
     ],
+    text:""
   },
-  {
-    id: 5,
-    title: "Fit Fusion Gym Website",
-    link: "#",
-    images: [
-      "/images/portfolio-5.png",
-      "/images/portfolio-6.png",
-      "/images/portfolio-7.png",
-    ],
-  },
-  {
-    id: 6,
-    title: "DX Digital Agency Website",
-    link: "#",
-    images: [
-      "/images/portfolio-6.png",
-      "/images/portfolio-7.png",
-      "/images/portfolio-8.png",
-    ],
-  },
-  {
-    id: 7,
-    title: "Little Learners Website",
-    link: "#",
-    images: [
-      "/images/portfolio-7.png",
-      "/images/portfolio-8.png",
-      "/images/portfolio-9.png",
-    ],
-  },
-  {
-    id: 8,
-    title: "StreamVibe Website",
-    link: "#",
-    images: [
-      "/images/portfolio-8.png",
-      "/images/portfolio-9.png",
-      "/images/portfolio-4.png",
-    ],
-  },
-  {
-    id: 9,
-    title: "YourBank Website",
-    link: "#",
-    images: [
-      "/images/portfolio-9.png",
-      "/images/portfolio-4.png",
-      "/images/portfolio-5.png",
-    ],
-  },
+ 
 ];
 
 

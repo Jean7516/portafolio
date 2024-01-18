@@ -12,7 +12,7 @@ const PortafolioItem = ({
     const[currentImg, setCurrentImg] = useState(portfolio.images[0]);
   return (
     <div className='box '>
-        <h4 className='mb-5 text-amber-600'>{portfolio.title}</h4>
+        <h4 className='mb-5 text-purple-500/80'>{portfolio.title}</h4>
         <div className='relative w-full h-80 rounded-lg overflow-hidden group cursor-pointer mb-5'>
             <a href={portfolio.link} target="_blank">
             <Image src={currentImg} alt={portfolio.title} fill className="object-cover"/>
@@ -30,6 +30,14 @@ const PortafolioItem = ({
               </div>
             ))}
         </div>
+        <div className='mb-5 mt-3 text-slate-300 font-primary grid grid-cols-2  gap-2'>
+            {portfolio.useF.map((id,index)=>(
+              <p key={index} className='  bg-gradient-radial from-purple-900  rounded-lg text-center'>
+                {id}
+              </p>
+            ))}
+        </div>
+        <p className='font-primary text-white'>{portfolio.text}</p>
     </div>
   )
 }

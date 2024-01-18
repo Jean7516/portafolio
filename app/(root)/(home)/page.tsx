@@ -1,8 +1,8 @@
-import Particle from "@/components/Particle";
+
 import PortafolioItem from "@/components/PortafolioItem";
 import SectiongHeading from "@/components/SectiongHeading";
 import { benefits, portfolios, skills } from "@/constants";
-import { ArrowRight, Github, Linkedin, LinkedinIcon } from "lucide-react";
+import {  Github, LinkedinIcon, Package } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -11,51 +11,55 @@ const page = () => {
   return (
     <>
       {/* perfil*/}
-      <section className="flex items-center max-width flex-col-reverse  mb-10 ">
+      <section className="flex items-center max-width  mb-10 ">
         {/*Lado izquierdo*/}
 
         <div className=" mt-4 tablet:mt-20">
-          <div className="flex flex-col gap-2 items-center  text-center ">
-            {/* <p className='px-4 py-2 bg-peach text-grey-600 w-max rounded'>
-              Hola
-            </p>
-             */}
-            <h1 className="leading-tight mb-10 pb-4 relative ">
+           <h1 className="leading-tight mb-10 pb-4 text-center items-center"data-aos="fade-down">
               <span className="py-10 text-6xl md:text-8xl  bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-purple-400 to-purple-600 text-center font-primary">
                 Hola, Soy Yann
               </span>
-              <span className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-purple-500 to-pink-500"></span>
+              <span className="flex bottom-0 left-0 w-full h-1 bg-gradient-to-r from-purple-500 to-pink-500"></span>
             </h1>
-            <p className="text-white text-2xl font-text" data-aos="fade-down"data-aos-delay="100">
-              Soy un apasionado por la programación y el desarrollo de software,y estoy emocionado por aprender y crecer en este campo.
-            </p>
-            <p className="text-white text-2xl font-text " data-aos="fade-down" data-aos-delay="100" >
-              Junior developer <br />
+
+          <div className="flex  gap-2 items-center text-center max-width tablet:flew-row max-tablet:flex-col">
+            <div className="flex tablet:w-3/4 ">
+              <p className="text-white text-2xl font-text" data-aos="fade-right"data-aos-delay="200">
+              Soy un apasionado por la programación y el desarrollo de software,y estoy emocionado por aprender y crecer en este campo. <br />Junior developer <br />
               React Enthusiast <br />
-              Full-stack (MERN) + Typescript Developer
-            </p>
+              Full-stack (MERN) + Typescript Developer 
+              </p>
+            </div>
+            <div className="flex-wrap justify-center w-40 ml-5" data-aos="fade-left" data-aos-delay="200">
+              <Link
+                href={"https://github.com/Jean7516"}
+                className="btn btn-primary m-1"
+              >
+                <Github /> Github
+              </Link>
+              <Link
+                href={"https://www.linkedin.com/in/yann-v-9840112aa/"}
+                className="btn btn-primary m-1"
+              >
+                <LinkedinIcon /> Linkedin
+              </Link>
+              {/* 
+              <Link
+                href={"#"}
+                className="btn btn-primary m-1"
+              >
+                <Package/> Proyectos
+              </Link>*/}
+
           </div>
-          <div
-            className="flex gap-4 mt-5 justify-center " data-aos="fade-down">
-            <Link
-              href={"https://github.com/Jean7516"}
-              className="btn btn-primary"
-            >
-              <Github /> Github
-            </Link>
-            <Link
-              href={"https://www.linkedin.com/in/yann-v-9840112aa/"}
-              className="btn btn-primary"
-            >
-              <LinkedinIcon /> Linkedin
-            </Link>
           </div>
+          
         </div>
         {/*Lado derecho
         <div className='relative  w-full tablet:w-1/3 h-[200px] tablet:h-[320px] rounded-b-2xl overflow-hidden mt-5 tablet:ml-14' data-aos="fade-left" data-aos-delay="100">
           <Image src={'/images/hero.png'} alt='hero' fill className='object-cover'/>
         </div>*/}
-        <Particle></Particle>
+       
       </section>
 
       {/* Skills*/}

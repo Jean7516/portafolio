@@ -34,7 +34,7 @@
     }
 
     h5 {
-        @apply text-xl font-semibold;
+        @apply text-lg;
     }
 
     h6 {
