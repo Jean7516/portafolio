@@ -101,7 +101,7 @@ export const portfolios = [
       "JavaScript",
       "IconMaterial"
     ],
-    text:"Una aplicación web React que recopila datos de una api de Ejercicios para mostrarlas en una interfas. La interfaz de usuario se diseñó utilizando IconMaterial. La aplicación posee funcionalidades que permiten a los usuarios escoger la parte del cuerpo que desa trabajar y la aplicacion devuelve los pasos asi como videos que debe realizar para ejercitar esos musculos."
+    text:"Una aplicación web React que recopila datos de una api de Ejercicios para mostrarlas en una interfas. La interfaz de usuario se diseñó utilizando IconMaterial. "
   },
   {
     id: 2,
@@ -120,21 +120,7 @@ export const portfolios = [
     ],
     text:"Una aplicación web React que resume aritculos proporcionados mediante una URl. La interfaz de usuario se diseñó utilizando TailwindCSS "
   },
-  {
-    id: 3,
-    title: "Skill Bridge Website",
-    link: "#",
-    images: [
-      "/images/portfolio-3.png",
-      "/images/portfolio-1.png",
-      "/images/portfolio-2.png",
-    ],
-    useF:[
-      "react",
-      "typescryp"
-    ],
-    text:""
-  },
+
  
 ];
 
