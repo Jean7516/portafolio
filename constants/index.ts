@@ -99,12 +99,12 @@ export const portfolios = [
   },
   {
     id: 2,
-    title: "Forhelp Charity Website",
-    link: "#",
+    title: "Resumir Articulos con IA",
+    link: "https://luxury-squirrel-4201c3.netlify.app",
     images: [
-      "/images/portfolio-2.png",
-      "/images/portfolio-3.png",
-      "/images/portfolio-1.png",
+      "/images/portfolio-4.png",
+      "/images/portfolio-5.png",
+      "/images/portfolio-6.png",
     ],
   },
   {

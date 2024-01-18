@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`bg-peach-600 ${manrope.className}`}>
+      <body className={`bg-black bg-gradient-radial from-red-900` }>
         <NextTopLoader color='#5700FF' showSpinner={false}/>
         <AOSInit/>
         {children}

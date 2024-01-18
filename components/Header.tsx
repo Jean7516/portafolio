@@ -7,10 +7,10 @@ import MovilMenu from './MovilMenu'
 
 const Header = () => {
   return (
-    <header className='flex items-center justify-between h-20 max-width border-b border-peach font-primary' >
+    <header className='flex items-center justify-between h-20 max-width  font-primary' >
         <Link href={"/"}>
-            <h5 className='text-gray-800 text-xl '>Web
-            <span className='text-red-700'> Developer</span></h5>
+            <h5 className='text-gray-50 text-xl '>Web
+            <span className='text-amber-600'> Developer</span></h5>
         </Link>
         <nav className='flex items-center gap-12 max-tablet:hidden'>
             <ul className='flex items-center gap-8'>
@@ -20,8 +20,9 @@ const Header = () => {
                     </li>
                 ))}
             </ul>
-            <Link href={"/contact"} className='btn btn-primary'>
-                <Phone size={24}>Contacto</Phone>
+            <Link href={"/contact"} className=' '>
+                <button className=' btn-primary'><Phone size={24}>Contacto</Phone></button>
+                
             </Link>
         </nav>
         <MovilMenu/>

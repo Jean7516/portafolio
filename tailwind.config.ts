@@ -15,7 +15,8 @@ const config: Config = {
       },
       fontFamily: { 
         primary: ["Poppins"],
-        text: ["Raleway"]
+        text: ["Raleway"],
+        Roboto: ['Roboto'],
        },
       colors: {
         white: "#ffffff",
