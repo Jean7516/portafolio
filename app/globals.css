@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -53,7 +53,7 @@
     }
 
     .box {
-        @apply bg-peach-400 p-8 tablet:p-12 rounded-lg
+        @apply bg-red-950/50 p-8 tablet:p-12 rounded-2xl
     }
 
     .btn {
@@ -61,11 +61,15 @@
     }
 
     .btn-primary {
-        @apply text-peach-100 bg-purple;
+        @apply px-6 py-2 text-black font-bold  rounded bg-gradient-to-r from-red-700 to-amber-700;
     }
-
+    
     input,
     textarea {
         @apply w-full rounded px-6 py-4 border border-peach-700 bg-peach-500 outline-none text-sm text-grey-700
     }
+    .orange_gradient {
+        @apply bg-gradient-to-r from-slate-950 via-rose-900 to-slate-950 bg-clip-text text-transparent;
+      }
+      
 }

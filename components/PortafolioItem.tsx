@@ -11,8 +11,8 @@ const PortafolioItem = ({
 }) => {
     const[currentImg, setCurrentImg] = useState(portfolio.images[0]);
   return (
-    <div className='box'>
-        <h4 className='mb-5'>{portfolio.title}</h4>
+    <div className='box '>
+        <h4 className='mb-5 text-amber-600'>{portfolio.title}</h4>
         <div className='relative w-full h-80 rounded-lg overflow-hidden group cursor-pointer mb-5'>
             <a href={portfolio.link} target="_blank">
             <Image src={currentImg} alt={portfolio.title} fill className="object-cover"/>
@@ -24,8 +24,9 @@ const PortafolioItem = ({
         </div>
         <div className='grid grid-cols-3 gap-3'>
         {portfolio.images.map((image,index)=>(
-              <div key={index} className='relative h-20 w-full rounded-lg overflow-hidden group cursor-pointer'>
-                <Image src={image} alt={portfolio.title} fill className='object-cover'/>
+              <div key={index} className='relative h-20 w-25 rounded-lg overflow-hidden group cursor-pointer'>
+                <Image src={image} alt={portfolio.title} fill className='object-cover'
+      />
               </div>
             ))}
         </div>

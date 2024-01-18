@@ -99,7 +99,7 @@ export const portfolios = [
   },
   {
     id: 2,
-    title: "Resumir Articulos web",
+    title: "Resumir Articulos web con IA",
     link: "https://luxury-squirrel-4201c3.netlify.app",
     images: [
       "/images/portfolio-4.png",

@@ -6,7 +6,7 @@ import React, { useState } from 'react'
 import NavLink from './NavLink';
 
 const MovilMenu = () => {
-    const[isOpen, setIsOpen]=useState(true);
+    const[isOpen, setIsOpen]=useState(false);
     const toggleMenu=()=>{
         setIsOpen(!isOpen);
     }
