@@ -89,19 +89,20 @@ export const benefits = [
 export const portfolios = [
   {
     id: 1,
-    title: "Rutinas de ejercicio",
-    link: "https://earnest-custard-10f00e.netlify.app",
+    title: "Blog",
+    link: "https://blogg-7px2.onrender.com",
     images: [
-      "/images/portfolio-1.png",
-      "/images/portfolio-2.png",
-      "/images/portfolio-3.png",
+      "/images/portfolio-7.png",
+      "/images/portfolio-8.png",
+      "/images/portfolio-9.png",
     ],
     useF:[
       "ReactJS",
-      "JavaScript",
-      "IconMaterial"
+      "ViteJS",
+      "Tailwind",
+      "MongoBD"
     ],
-    text:"Una aplicación web React que recopila datos de una api de Ejercicios para mostrarlas en una interfas. La interfaz de usuario se diseñó utilizando IconMaterial. "
+    text:"Un Blog hecho en React con ViteJS, implementado un dashboar conectado a una base de datos MongoDB "
   },
   {
     id: 2,
@@ -115,13 +116,27 @@ export const portfolios = [
     useF:[
       "ReactJS",
       "Tailwindcss",
-      "Vite",
-      "Axios",
+      "ViteJS",
     ],
     text:"Una aplicación web React que resume aritculos proporcionados mediante una URl. La interfaz de usuario se diseñó utilizando TailwindCSS "
   },
+  {
+    id: 3,
+    title: "Rutinas de ejercicio",
+    link: "https://earnest-custard-10f00e.netlify.app",
+    images: [
+      "/images/portfolio-1.png",
+      "/images/portfolio-2.png",
+      "/images/portfolio-3.png",
+    ],
+    useF:[
+      "ReactJS",
+      "JavaScript",
+      "MuiMaterials"
+    ],
+    text:"Una aplicación web React que recopila datos de una api de Ejercicios para mostrarlas en una interfas. La interfaz de usuario se diseñó utilizando IconMaterial. "
+  },
 
- 
 ];
 
 
