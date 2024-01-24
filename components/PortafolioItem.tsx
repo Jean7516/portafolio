@@ -12,7 +12,7 @@ const PortafolioItem = ({
     const[currentImg, setCurrentImg] = useState(portfolio.images[0]);
   return (
     <div className='box '>
-        <h4 className='mb-5 text-purple-500/80'>{portfolio.title}</h4>
+        <h4 className='mb-5 text-purple-100/80'>{portfolio.title}</h4>
         <div className='relative w-full h-80 rounded-lg overflow-hidden group cursor-pointer mb-5'>
             <a href={portfolio.link} target="_blank">
             <Image src={currentImg} alt={portfolio.title} fill className="object-cover"/>

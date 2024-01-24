@@ -46,11 +46,11 @@ const page = () => {
                 <div className='space-y-4'>
                     <div className='box !p-6'>
                         <p className='text-grey-100'>Puedes enviarme un correo:</p>
-                        <h6 className='text-gray-100'>yann.vl45.@gmail.com</h6>
+                        <h6 className='text-gray-100'>yann.vl45@gmail.com</h6>
                     </div>
                     <div className='box !p-6'>
                         <p className='text-grey-100'>Telefono:</p>
-                        <h6 className='text-gray-100'>934749186</h6>
+                        <h6 className='text-gray-100'>xxxxxxx</h6>
                     </div>
                     <div className='box !p-6'>
                         <p className='text-grey-100'>Locacion:</p>

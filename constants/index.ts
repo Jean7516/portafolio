@@ -106,19 +106,19 @@ export const portfolios = [
   },
   {
     id: 2,
-    title: "Resumir Articulos web",
-    link: "https://luxury-squirrel-4201c3.netlify.app",
+    title: "Consultorio Dental",
+    link: "https://soft-creponne-6d5cad.netlify.app/#home",
     images: [
-      "/images/portfolio-4.png",
-      "/images/portfolio-5.png",
-      "/images/portfolio-6.png",
+      "/images/portfolio10.png",
+      "/images/portfolio11.png",
+      "/images/portfolio12.png",
     ],
     useF:[
       "ReactJS",
       "Tailwindcss",
-      "ViteJS",
+      "Maps Api",
     ],
-    text:"Una aplicación web React que resume aritculos proporcionados mediante una URl. La interfaz de usuario se diseñó utilizando TailwindCSS "
+    text:"Una aplicación web de un consultorio dental que muestra información sobre los servicios ofrecidos. La interfaz de usuario se diseñó utilizando TailwindCSS y la ubicacion utilizando la api de googlemaps"
   },
   {
     id: 3,
@@ -135,6 +135,22 @@ export const portfolios = [
       "MuiMaterials"
     ],
     text:"Una aplicación web React que recopila datos de una api de Ejercicios para mostrarlas en una interfas. La interfaz de usuario se diseñó utilizando IconMaterial. "
+  },
+  {
+    id: 4,
+    title: "Resumir Articulos web",
+    link: "https://luxury-squirrel-4201c3.netlify.app",
+    images: [
+      "/images/portfolio-4.png",
+      "/images/portfolio-5.png",
+      "/images/portfolio-6.png",
+    ],
+    useF:[
+      "ReactJS",
+      "Tailwindcss",
+      "ViteJS",
+    ],
+    text:"Una aplicación web React que resume aritculos proporcionados mediante una URl. La interfaz de usuario se diseñó utilizando TailwindCSS "
   },
 
 ];
@@ -164,7 +180,7 @@ export const contactDetails = [
   {
     id: 1,
     icon: Phone,
-    text: " 934749186",
+    text: " xxxxxx",
   },
   {
     id: 2,

@@ -110,7 +110,7 @@ const page = () => {
           className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))]  gap-6 font-text"
           data-aos="flip-left"
         >
-          {portfolios.slice(0, 3).map((portfolio, index) => (
+          {portfolios.slice(0, 4).map((portfolio, index) => (
             <PortafolioItem key={index} portfolio={portfolio} />
           ))}
         </div>
